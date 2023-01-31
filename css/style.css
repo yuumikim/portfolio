@@ -1,0 +1,451 @@
+@charset "utf-8";
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "NanumSquareNeo-Variable";
+}
+/* *****************header*********************************** */
+
+@media all {
+  html {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+}
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+}
+.headerWrap {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.headerWrap div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+/* *****************main************************************ */
+.mainVisual {
+  background-color: #648063;
+}
+.logo {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20% 0;
+  font-family: "Montserrat", sans-serif;
+}
+.logo > div {
+  font-size: 13rem;
+  font-weight: bold;
+  width: fit-content;
+}
+.logo span {
+  /* -webkit-text-stroke: 3px #000;
+    color:transparent; */
+  color: #ffac97;
+}
+.logoBar {
+  width: 0vw;
+  height: 3vh;
+  background-color: #ffa95d;
+}
+/* *******************resume*********************************** */
+.resume {
+  background-color: #ffac97;
+  color: #ffeed0;
+  position: relative;
+}
+.resumeW {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h2 {
+  font-size: 10rem;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 3px rgb(68, 64, 64);
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  left: -40%;
+  font-family: "Montserrat", sans-serif;
+}
+.aboutMe {
+  margin-left: 12%;
+  width: 40vw;
+  text-align: right;
+  padding-right: 5%;
+  position: relative;
+}
+.aboutMe > img {
+  /* position: absolute;
+  bottom: 0; */
+  height: 300px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #648063;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.aboutMe > h3 {
+  padding-top: 10vh;
+}
+.aboutMe > p {
+  padding-top: 5rem;
+  font-size: 3rem;
+  line-height: 5rem;
+}
+.info {
+  display: flex;
+  padding-right: 0;
+  justify-content: right;
+}
+.info > ul {
+  padding-left: 5%;
+  text-align: right;
+}
+.info > ul > li {
+  padding-top: 1rem;
+}
+.vertical {
+  height: 0;
+  width: 2rem;
+  background-color: #648063;
+  transition: 0.6s;
+}
+.ski > div {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+.ski img {
+  width: 2rem;
+  height: fit-content;
+  margin-right: 1rem;
+}
+.ski span {
+  margin-top: 1rem;
+}
+.resumeIndex {
+  padding-top: 3rem;
+}
+.resumeIndex > div {
+  padding: 5% 5%;
+}
+.resumeIndex p {
+  padding-top: 1rem;
+}
+
+.outlevel {
+  display: block;
+  width: 25rem;
+  height: 0.5rem;
+  background-color: rgb(238, 238, 238);
+  border-radius: 1rem;
+}
+.inlevel {
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: cadetblue;
+  border-radius: 1rem;
+}
+
+/* *************work********************************* */
+
+.work {
+  position: relative;
+}
+.work > div {
+  width: 100vw;
+}
+.work img {
+  width: 100rem;
+}
+.netflix {
+  background-image: url(../img/mainV_background.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: cornsilk;
+}
+.netflix img {
+  transform: rotate(20deg);
+  position: absolute;
+  top: 25vh;
+  left: -20%;
+  box-shadow: 5px -5px 10px 10px rgb(255, 221, 221);
+  background-color: #000;
+  border-radius: 20px;
+}
+.netflixbar {
+  width: 105%;
+  height: 2px;
+  background-color: rgb(255, 221, 221);
+  top: 150px;
+}
+
+.netflixW {
+  width: 90%;
+  margin: 0 auto;
+}
+.netflixW > .title {
+  text-align: center;
+  font-size: 6rem;
+  /* font-family: 'Montserrat', sans-serif; */
+  margin-bottom: 50px;
+}
+.netflixW > .script {
+  margin-left: 50%;
+  padding: 5rem;
+  font-size: 1.5rem;
+}
+.netflixW .subtitle {
+  display: flex;
+}
+.netflixW .subtitle > ul:first-child {
+  font-weight: bold;
+  padding-right: 2rem;
+}
+.netflixW .subtitle > ul > li {
+  padding: 20px;
+}
+.netflixW .linkbutton {
+  margin-top: 80px;
+}
+.netflixW .linkbutton > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.netflixW .linkbutton > ul > li {
+  /* border: 0.1rem solid rgb(255, 115, 115); */
+  background-color: rgb(116, 92, 92);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  line-height: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+.xmax {
+  background-image: url(../img/main-img.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xmaxW {
+  width: 90%;
+  margin: 0 auto;
+}
+.xmaxbar {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  top: 150px;
+}
+.xmax img {
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 5vh;
+  left: 80%;
+  box-shadow: 5px -5px 10px 10px rgb(255, 255, 255);
+  background-color: #000;
+  border-radius: 20px;
+}
+.xmaxw > .title {
+  /* text-align: center; */
+  font-size: 6rem;
+  /* font-family: 'Montserrat', sans-serif; */
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  margin-left: 10%;
+}
+.xmaxw > .script {
+  padding: 5rem;
+  font-size: 1.5rem;
+  width: 40%;
+  color: rgb(255, 255, 255);
+  margin-left: 5%;
+}
+.xmaxw .subtitle {
+  display: flex;
+}
+.xmaxw .subtitle > ul:first-child {
+  font-weight: bold;
+  padding-right: 2rem;
+}
+.xmaxw .subtitle > ul > li {
+  padding: 20px;
+}
+.xmaxw .linkbutton {
+  margin-top: 80px;
+}
+.xmaxw .linkbutton > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.xmaxw .linkbutton > ul > li {
+  /* border: 0.1rem solid rgb(255, 115, 115); */
+  background-color: rgb(255, 95, 95);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  line-height: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+/* *******************design*********************** */
+.design {
+  background-color: #fac79a;
+}
+
+.designw {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.designw > .title {
+  position: fixed;
+  font-size: 15rem;
+  font-weight: bold;
+  right: 5%;
+  -webkit-text-stroke: 6px rgb(68, 64, 64);
+  color: transparent;
+  z-index: 99;
+  font-family: "Montserrat", sans-serif;
+}
+.gallery > div {
+  width: fit-content;
+  position: relative;
+}
+.gallery > .gal1 {
+  position: relative;
+  top: 5rem;
+  left: 30%;
+}
+.gallery > .gal2 {
+  position: relative;
+  top: -2rem;
+  left: 5%;
+}
+.gallery > .gal3 {
+  position: relative;
+  top: 10rem;
+  left: 30%;
+}
+.gallery > .gal4 {
+  position: relative;
+  top: 5rem;
+  left: 20%;
+}
+.gallery > .gal5 {
+  position: relative;
+  top: -15rem;
+  left: 10%;
+}
+.gallery > .gal6 {
+  position: relative;
+  top: -3rem;
+  left: 15%;
+}
+.gallery > .gal1 img {
+  opacity: 0.8;
+  width: 30rem;
+}
+.gallery > .gal2 img {
+  opacity: 0.8;
+  width: 50rem;
+}
+.gallery > .gal3 img {
+  opacity: 0.8;
+  width: 40rem;
+}
+.gallery > .gal4 img {
+  opacity: 0.8;
+  width: 45rem;
+}
+.gallery > .gal5 img {
+  opacity: 0.8;
+  width: 25rem;
+}
+.gallery > .gal6 img {
+  opacity: 0.8;
+  width: 45rem;
+}
+.gallery > div > p {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #fac79a;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+/* *******************contact******************* */
+.contact {
+  /* background-image: url(../img/tree-gbcac4e76d_1920.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  background-color: #648063;
+}
+.contactw {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+}
+.contactw > div {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #ffac97;
+  margin: auto;
+}
+.typing-txt {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+.typing ul li.on {
+  display: inline-block;
+  animation-name: cursor;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes cursor {
+  0% {
+    border-right: 1px solid #fff;
+  }
+  50% {
+    border-right: 1px solid #000;
+  }
+  100% {
+    border-right: 1px solid #fff;
+  }
+}

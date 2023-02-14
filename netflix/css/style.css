@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* *********************************HEAD*************************************************** */
+
+header{
+    position:absolute;
+    width:100%;
+}
+.headerW{
+    width: 63%;
+    height: 67px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logbox{
+    width:250px;
+    height:30px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    font-size:20px;
+    line-height: 30px;
+}
+.logbox>input{
+    border: none;
+    width:180px;
+    background-color: transparent;
+    outline:none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.headerIcon{
+    display: flex;
+    align-items: center;
+}
+.headerIcon>a{
+    padding-left: 20px;
+}
+.headerIcon>a>img{
+    width:30px;
+}
+/* *********************************MAIN****************************************** */
+.mainV{
+    background-image:url('../images/mainV_background.png');
+    background-position: center;
+    background-repeat: none;
+}
+.mainW{
+    width:63%;
+    margin:0 auto;
+}
+.logo{
+    padding: 160px 0 200px ;
+    width: 500px;
+    margin: 0  auto;
+    
+}
+.logo>img{
+    width:500px;
+}
+.mainP>p:first-child{
+    color:rgba(255, 255, 255, 0.8);
+    font-size:25px;
+    padding-bottom: 10px;
+
+}
+.mainP>p:last-child{
+    color:rgba(255, 255, 255, 0.8);
+    font-size:20px;
+    margin-bottom: 30px;
+}
+.homes{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    color:rgba(255, 255, 255, 0.8);
+    line-height: 30px;
+    /* padding-bottom: 20px; */
+}
+.homes>a>img{
+    width:300px;
+    box-shadow: 5px 5px 5px #000;
+}
+.homesInfo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    position: relative;
+    top: -50px;
+}
+.homesInfo>img{
+    width:200px;
+}
+.homesInfo>div{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.homesInfo>div>span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+.homesInfo>p{
+    font-size: 15px;
+}
+/* ********************************************NAVIGATION************************ */
+.nav{
+    background-color: #000;
+    height: 67px;
+}
+.navW{
+
+    width:63%;
+    color:#fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0  auto;
+    line-height: 67px;
+}
+
+
+/* *******************************profile********************************** */
+.profileW{
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.profileW>p{
+    font-size: 20px;
+    padding: 50px;
+}    
+.profileIcon{
+    display: flex;
+    justify-content:space-around;
+    padding: 0 30px;
+    
+}
+.profileIcon>div>p{
+    padding: 20px;
+}
+.profileIcon >div:last-child>a>img{
+    width:70px;
+}
+/* ************************ONLY NETFLIX********************** */
+h2{
+    font-size:20px;
+    color:#fff;
+    padding:20px 0;
+    width:63%;
+    margin:0 auto;
+}
+.only{
+    background-color: #322E2C;
+    color:#fff;
+}
+
+.only>img{
+    position:relative;
+    width:100%;
+}
+.onlyslide{
+    padding:10px 0;
+    
+}
+.onlyslide>ul{
+    display: flex;
+    position:relative;
+}
+
+
+/* *************new********************************* */
+.new{
+    background-color: #322E2C;
+}
+.newSlide{
+    padding: 10px 0;
+}
+.newSlide>ul{
+    display: flex;
+}
+
+/* *******************TRENDY *************************/
+.trendy{
+    background-color: #322E2C;
+    width:100%
+
+}
+.trendySlide{
+    padding: 10px 0;
+}
+.trendySlide>ul{
+    display: flex;
+}
+ /* ******************My List************************************ */
+.myList{
+    background-color: #322E2C;
+    width:100%;
+}
+.myListSlide{
+    padding: 10px 0;
+}
+.myListSlide>ul{
+    display: flex;
+}
+/* *****************movie***************************** */
+.movie{
+    background-color: #322E2C;
+    width:100%;
+}
+.movieSlide{
+    padding: 10px 0;
+}
+.movieSlide>ul{
+    display:flex;
+}
+/* ****************drama********************************** */
+.drama{
+    background-color: #322E2C;
+    width:100%;
+}
+.dramaSlide{
+    padding: 10px 0;
+}
+.dramaSlide>ul{
+    display: flex;
+}
+
+/* *********************footer*********************************** */
+footer{
+    background-color: #322E2C;
+    padding: 20px 0;
+}
+.footerW{
+    width:63%;
+    margin: 0 auto;
+    display: flex;
+}
+.logo_red>img{
+    width:170px;
+    margin-bottom: 10px;
+}
+.sns{
+    display: flex;
+
+}
+.sns img{
+    width:20px;
+    margin-right: 15px ;
+}
+.footerW>p{
+    color:#fff;
+    line-height: 25px;
+    font-size: 14px;
+    margin-left: 10%;
+}
+
+
+/* **********반응형********************* */
+
+@media all and (min-width:768px) and (max-width:1023px){
+    .logo>img{
+        width:300px;
+    }
+    .mainP{
+        display: none;
+    }
+    .homesInfo>img{
+        width:200px;
+    }
+    .profileW img{
+        width:60px;
+    }
+    .homes>a>img{
+        display: none;
+    }
+    .footerW{
+        display: block;
+    }
+    .footerW>p{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+}
+@media(max-width:767px){
+
+    .logo>img{
+        width:200px;
+    }
+    
+    .logbox{
+        display: none;
+    }
+    .mainP{
+        display: none;
+    }
+    .homesInfo>img{
+        width:100px;
+    }
+    .profileW img{
+        width:60px;
+    }
+    .homes>a>img{
+        display: none;
+    }
+    .homesInfo>p{
+        display: none;
+    }
+    .homesInfo>div{
+        display: none;
+    }
+    .footerW{
+        display: block;
+    }
+    .footerW>p{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+}
